@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Jorge Baez</title>
+    <style>
+        /* Añadir margen superior para separar el contenido del logo */
+        .portfolio-content {
+            margin-top: 0px; /* Ajusta el valor para mayor o menor espacio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Jorge Baez</a>
+        <!-- Input para activar/desactivar el menú -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </label>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+        </nav>
+    </header>
+    
+    <section class="portfolio">
+        <div class="portfolio-content">
+            <h1>My Portfolio</h1>
+            <p>Below are some of the most impactful projects I have led. For each, I utilized diverse data sources such as Excel, SharePoint, and SQL Management Studio. Throughout these projects, I focused on data cleansing, ensuring data quality, and applying effective visualizations tailored to the specific needs of the audience and objectives.</p>
+            
+            <!-- Proyectos -->
+            <div class="projects">
+                <div class="project">
+                    <h2>Project 1: Tickets per day</h2>
+                    <p>This project was carried out to show the behavior of the external and internal requirements (tickets). In addition, you can view their distribution by months and hours to optimize the use of resources.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzdiYzE1ODctODEzMC00ZGU2LWE3ZTktMDNmN2JhYTNmNDAxIiwidCI6IjNkNmQwOGMxLWJlMzAtNDhjNy05NWQzLTI0NTA3MTQ4ZmQ0NCJ9" target="_blank">
+                        <p>Watch the example</p>
+                        <img src="Tickets.png" alt="Previsualización del reporte: Tickets per day" style="width:100%; max-width:600px;"/>
+                    </a>
+                    <h3 class="tools-used">Tools used: Excel, Power BI</h3>
+                </div>
+
+                <div class="project">
+                    <h2>Project 2: Customer Relationship Management (CRM)</h2>
+                    <p>This example shows the most relevant information obtained from a CRM. Here you can visualize and interact with the assigned budget vs. achieved, the detail of the management by consultant, the number of quotes, leads, closed sales, etc. This report contains several segmenters that will help you understand the information from the general to the detail.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDBhYjM5ZGQtYmE3Ny00MDk4LWE4Y2EtNjJjMjk4MzIxMjExIiwidCI6IjNkNmQwOGMxLWJlMzAtNDhjNy05NWQzLTI0NTA3MTQ4ZmQ0NCJ9" target="_blank">
+                        <p>Watch the example</p>
+                        <img src="CRM.png" alt="Previsualización del reporte: Tickets per day" style="width:100%; max-width:600px;"/>
+                    </a>
+                    <h3 class="tools-used">Tools used: Excel, Power BI</h3>
+                    
+                </div>
+
+                <div class="project">
+                    <h2>Project 3: Impact LatinAmerica</h2>
+                    <p>This project was carried out for a pro-church organization. Through it, you can view various metrics in different Latin American countries. Each country is personalized with its flag, includes details for each country and is available in Spanish and English.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNTkxMzE5MjEtZjBlYS00MmI3LWFhMDMtNjBiM2ZmMjkwYjFmIiwidCI6IjUxMWFjZTc5LTk0MjMtNGE1Ny1iMmEwLWM0Y2VjZDI4MmQxNiJ9">
+                        <p>Watch the example</p>
+                        <img src="ILA.png" alt="Previsualización del reporte: Tickets per day" style="width:100%; max-width:600px;"/>
+                    </a>
+                    <h3 class="tools-used">Tools used: SharePoint, Power BI</h3>
+                </div>
+
+                <div class="project">
+                    <h2>Project 4: Downtimes</h2>
+                    <p>This Power BI report provides a comprehensive analysis of machine downtimes, highlighting the duration, frequency, and causes of stoppages. It helps identify trends, optimize maintenance schedules, and reduce unplanned production interruptions.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMGRmMWEyZjEtMzZmYS00YzY4LWI2MjMtMWRlMTFkYmM1NzE4IiwidCI6IjNkNmQwOGMxLWJlMzAtNDhjNy05NWQzLTI0NTA3MTQ4ZmQ0NCJ9">
+                        <p>Watch the example</p>
+                        <img src="DW.png" alt="Previsualización del reporte: Tickets per day" style="width:100%; max-width:600px;"/>
+                    </a>
+                    <h3 class="tools-used">Tools used: SharePoint, Power BI</h3>
+                </div>
+
+                <div class="project">
+                    <h2>Project 5: Rolling </h2>
+                    <p>This Power BI project provides insights into the rolling mill process, downtime analysis and production efficiency. It visualizes key metrics such as material throughput, operational time, and defect rates, enabling stakeholders to identify bottlenecks, optimize processes, and ensure consistent product quality.</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZjRmY2Y4OTItYjBhOS00ZTY5LWIxY2QtMjExM2U2ZTJmYWE4IiwidCI6IjNkNmQwOGMxLWJlMzAtNDhjNy05NWQzLTI0NTA3MTQ4ZmQ0NCJ9">
+                        <p>Watch the example</p>
+                        <img src="RM.png" alt="Previsualización del reporte: Tickets per day" style="width:100%; max-width:600px;"/>
+                    </a>
+                    <h3 class="tools-used">Tools used: SharePoint, SQL, Power BI</h3>
+                </div>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jorge-baez-09b956157/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:jorgebaez7@gmail.com">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/jbaez_10/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
